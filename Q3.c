@@ -23,7 +23,8 @@ Explanation: Compared with 10, 20, 30 (found at index 2 with 3 comparisons) */
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n, comparisons = 0, found = -1, i, k;
     int arr[100];
     
@@ -53,4 +54,5 @@ int main() {
     
     return 0;
 }
+
 
